@@ -24,28 +24,25 @@ User Friendly UI Of Calculator.
 
 Who:
 
-Students who want to solve mathematics related problems for their academic work.
-
-Datascience workers working on machine learning and deep learning applications which majorly involve matrice Software engineer.
-
-Researchers and mathematicians.
+Students who wants to solve mathematics and physics problems for their academic work.
 
 What:
 
-Calculate the sum, differemce, product of two matrices and also the determinnt, transpose and inverse of a single matrix.
+Calculate the advance mathematics.
 
 When:
 
-Students facing a difficulty in solving a matrix related problem, can use this program to conform their outputs.
 
-Researchers can use it for getting a quick calculation output.
-
-Comes to a great use when calculating for matrices of huge order.
+Comes to a great use when calculating facing advances mathematics and solving pysics problems. 
 
 Where:
 
-Students, employees and researchers all over the world.
+Students can solve the problems easily at institutes or schools or colleges. 
+
+why:
+
+to get the result fast as possible.
 
 How:
 
-This program can be executed in a system which has Linux or Windows operating system.
+This program was done using switch stement.
