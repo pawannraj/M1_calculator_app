@@ -1,4 +1,4 @@
-#include<stdio.h>
+include<stdio.h>
 #include<math.h>
 int main()
 {
@@ -13,7 +13,7 @@ int main()
 	printf("Enter x and y values:");
 	scanf("%f ,%f",&x,&y);
 	
-	printf("1.sum\n 2.diff\n 3.prod\n 4.quoi\n 5.squareroot\n 6.power\n7.onebyx\n8.power of x and 1/y\n9 .10 power x\n11.log10(x)\n12. sin(x)\n13. cos(x)\n14.tanx(x)");
+	printf("1.sum\n 2.diff\n 3.prod\n 4.quoi\n 5.squareroot\n 6.power\n7.onebyx\n8.power of x and 1/y\n9 .10 power x\n11.log10(x)\n12. sin(x)\n13. cos(x)\n14.tanx(x)\n15.log(x)\n16.exp(x)\n17.sinh(x)\n18.cosh(x)\n19.tanh(x)");
 	scanf("%d",&choice);
 	switch(choice)
 	{
