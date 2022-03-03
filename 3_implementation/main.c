@@ -79,10 +79,31 @@ int main()
 		           result=tan(x);
 		           printf("Result is=%f",result);
 		           break;
+		    case 15:
+		    	   result=log(x);
+		    	   printf("Result is=%f",result);
+		    	   break;
+		    case 16:
+		    	   result=exp(x);
+		    	   printf("Result is=%f",result);
+		    	   break;
+		    case 17:
+		    	   result=sinh(x);
+		    	   printf("Result is=%f",result);
+		    	   break;
+		    case 18:
+		    	   result=cosh(x);
+		    	   printf("Result is=%f",result);
+		    	   break;
+		    case 19:
+		    	   result=tanh(x);
+		    	   printf("Result is=%f",result);
+		    	   break;
+		    
+		    
 		  default:
-		            printf("invalid input");
+		           printf("invalid input");
 }
-	getch();
+	
 	return 0;		
 	}
-	
