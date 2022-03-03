@@ -1,4 +1,5 @@
 ![code quality](https://api.codiga.io/project/31523/score/svg)
+![code grade](https://api.codiga.io/project/31523/status/svg)
 
 
 
