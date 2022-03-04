@@ -1,3 +1,13 @@
+/**
+ * @file main.c
+ * @author pawan(pawanraj3706@.com)
+ * @brief scientific calculator
+ * @version 0.1
+ * @date 2022-03-04
+ * 
+ * @copyright Copyright (c) 2022
+ * 
+ */
 #include<stdio.h>
 #include<calc.h>
 int main()
