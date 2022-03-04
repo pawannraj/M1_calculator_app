@@ -1,3 +1,13 @@
+/**
+ * @file project main.c
+ * @author pawan (pawanraj@3706.com)
+ * @brief 
+ * @version 0.1
+ * @date 2022-03-04
+ * 
+ * @copyright Copyright (c) 2022
+ * 
+ */
 #include "cal.h"
 extern void test_main();
 
