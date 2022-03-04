@@ -9,7 +9,7 @@ int main()
     {  
         // displays the multiple operations of the C Calculator  
         printf (" Select an operation to perform the calculation in C Calculator: ");  
-        printf (" \n 1 Addition  \t \t 2 Subtraction \n 3 Multiplication \t 4 Division \n 5 Square \t \t 6 Cube \n 7 Exit \n \n Please, Make a choice ");      
+        printf (" \1.sum\n 2.diff\n 3.prod\n 4.quoi\n 5.squareroot\n 6.power\n7.onebyx\n8.power of x and 1/y\n9 .10 power x\n11.log10(x)\n12. sin(x)\n13. cos(x)\n14.tanx(x)\n15.log(x)\n16.exp(x)\n17.sinh(x)\n18.cosh(x)\n19.tanh(x)");      
           
         scanf ("%d", &option); // accepts a numeric input to choose the operation  
       
@@ -34,23 +34,58 @@ int main()
             break; // break the function  
               
         case 5:  
-            (); // It call the sq() function  to get the square of given numbers  
+            sqrtrt(x); // It call the sqrt() function  to get the square of given numbers  
             break; // break the function  
               
         case 6:  
-            cube(); /* It call the sqrt1() function  to get the cube of given numbers */  
+            pow(x); /* It call the pow() function  to get the cube of given numbers */  
             break; // break the function  
               
         case 7:  
-            exit(0); // It call the exit() function  to exit from the program  
+            oneby(x); /* It call the oneby() function  to get the cube of given numbers */  
             break; // break the function  
-              
+       case 8:
+            pow of(x); /* It call the powof() function  to get the cube of given numbers */  
+            break; // break the function  
+       case 9:
+           pow(x,1/y); /* It call the pow(x,1/y) function  to get the cube of given numbers */  
+            break; // break the function  
+       case 10:
+           fact(x); /* It call the fact() function  to get the cube of given numbers */  
+            break; // break the function 
+       case 11:
+           log10(x); /* It call the log10() function  to get the cube of given numbers */  
+            break; // break the function 
+       case 12:
+            sin(x); /* It call the sin() function  to get the cube of given numbers */  
+            break; // break the function 
+       case 13:
+            cos(x); /* It call the cos() function  to get the cube of given numbers */  
+            break; // break the function 
+       case 14:
+           tan(x); /* It call the tan() function  to get the cube of given numbers */  
+            break; // break the function  
+       case 15:
+            log(x); /* It call the log() function  to get the cube of given numbers */  
+            break; // break the function  
+       case 16:
+            exp(x); /* It call the exp() function  to get the cube of given numbers */  
+            break; // break the function
+       case 17:
+            sinh(x); /* It call the sinh() function  to get the cube of given numbers */  
+            break; // break the function 
+       case 18:
+            cosh(x); /* It call the pow() function  to get the cube of given numbers */  
+            break; // break the function  
+       case 19:
+            tanh(x); /* It call the pow() function  to get the cube of given numbers */  
+            break; // break the function  
         default:  
-            printf(" Something is wrong!! ");  
+            printf(" invalid output ");  
             break;                        
     }  
     printf (" \n \n ****** \n ");  
-    } while (option != 7);  
+    } while (option != 19);  
      #else
      test_main();
      #endif 
