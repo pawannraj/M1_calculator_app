@@ -75,10 +75,10 @@ int main()
             sinh(x); /* It call the sinh() function  to get the cube of given numbers */  
             break; // break the function 
        case 18:
-            cosh(x); /* It call the pow() function  to get the cube of given numbers */  
+            cosh(x); /* It call the cosh() function  to get the cube of given numbers */  
             break; // break the function  
        case 19:
-            tanh(x); /* It call the pow() function  to get the cube of given numbers */  
+            tanh(x); /* It call the tanh() function  to get the cube of given numbers */  
             break; // break the function  
         default:  
             printf(" invalid output ");  
