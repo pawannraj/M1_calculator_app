@@ -1,3 +1,15 @@
+
+/**
+ * @file cal.h
+ * @author pawan(pawanraj3706@.com)
+ * @brief scientific calculator
+ * @version 0.1
+ * @date 2022-03-04
+ * 
+ * @copyright Copyright (c) 2022
+ * 
+ */
+
 #ifndef cal_h_
 #define cal_h_
 #include <stdio.h>
