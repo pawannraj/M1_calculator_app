@@ -1,5 +1,7 @@
 #include <stdio.h>
+
 #include<math.h>
+
 int calc(int choice,int num1,int num2,float x,float y)
 {
   int sum,prod,diff;
